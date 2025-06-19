@@ -1,0 +1,65 @@
+
+<html>
+<head>
+    <title>office page</title>
+    <style>
+        body {
+            font-family: arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            border-top: 1px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>office page</h1>
+        </div>
+        <div class="content">
+            <h2>welcome to the office page</h2>
+            <p>this is a single page for the office, where you can find all the necessary information and resources.</p>
+            <ul>
+                <li>office hours: 9am - 5pm</li>
+                <li>contact information: <a href="mailto:office@example.com">office@example.com</a></li>
+                <li>location: 123 main st, anytown, usa</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p>&copy; 2024 office page</p>
+        </div>
+    </div>
+    <script>
+        // add event listener to the document
+        document.addeventlistener('domcontentloaded', function() {
+            console.log('page loaded');
+        });
+    </script>
+</body>
+</html>
